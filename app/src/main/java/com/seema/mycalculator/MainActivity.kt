@@ -1,6 +1,4 @@
 package com.seema.mycalculator
-
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -53,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-    @SuppressLint("SuspiciousIndentation")
+
     fun onEqual(view: View){
         if (LastNumeric){
             var tvValue=tvInput?.text.toString()
